@@ -1185,7 +1185,7 @@ let yesBtn = document.getElementById('try-yes-btn')
 let noBtn = document.getElementById('try-no-btn')
 
 yesBtn.addEventListener('click', function() {
-    window.location.href="level2.html";
+    window.location.href="level2.php";
 });
 
 noBtn.addEventListener('click', function() {

@@ -121,7 +121,7 @@
             <!-- Win Modal -->
             <div class="game-over-modal">
                 <div class="win-container">
-                    <form action="map.html">  <!--    Temporary       -->
+                    <form action="map.php">  <!--    Temporary       -->
                         <input type="submit"  class="ok-btn" id="ok-btn" value="OK">
                     </form>
                 </div>  

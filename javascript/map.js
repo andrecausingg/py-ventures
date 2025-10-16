@@ -138,13 +138,13 @@ let closeStart = document.getElementById("start-close").addEventListener("click"
 let level1 = document.getElementById("lvl1");
 
 level1.addEventListener("click", function() {
-    startBtn.setAttribute("href", "level1.html");
+    startBtn.setAttribute("href", "level1.php");
     startModal.style.zIndex = "20";
 });
 
 let level2 = document.getElementById("lvl2");
 level2.addEventListener("click", function() {
-    startBtn.setAttribute("href", "level2.html");
+    startBtn.setAttribute("href", "level2.php");
     startModal.style.zIndex = "20";
 });
 
