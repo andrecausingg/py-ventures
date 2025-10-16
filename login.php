@@ -46,8 +46,8 @@
                 </form>
 
                 <div class="nav-form">
-                    <a class="ney-text-color-black ney-text-size-small" href="signup">Don't Have an account? Sign Up</a> <br>
-                    <a class="ney-text-color-black ney-text-size-small" href="forgot-password">Forgot Password</a>
+                    <a class="ney-text-color-black ney-text-size-small" href="signup.php">Don't Have an account? Sign Up</a> <br>
+                    <a class="ney-text-color-black ney-text-size-small" href="forgot-password.php">Forgot Password</a>
                 </div>
             </div>
         </div>

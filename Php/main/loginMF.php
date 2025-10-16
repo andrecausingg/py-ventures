@@ -51,13 +51,13 @@
                         if($check_uat_id_row > 0){
                             // Session
                             $_SESSION["uat_id"] = $uat_id;
-                            echo "<script>window.location.href='menu';</script>";
+                            echo "<script>window.location.href='menu.php';</script>";
                         }else{
                             $query_insert = mysqli_query($classDataBaseConnection->connect(),"INSERT INTO user_map_level_progress_tbl (umlpt_uat_id ,umlpt_level) VALUES ($uat_id ,1)");
                             if($query_insert){
                                 // Session
                                 $_SESSION["uat_id"] = $uat_id;
-                                echo "<script>window.location.href='menu';</script>";
+                                echo "<script>window.location.href='menu.php';</script>";
 
                             }
                         }

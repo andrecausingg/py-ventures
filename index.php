@@ -72,7 +72,7 @@
                     </div>
                 </div>
                 <!-- Continue Button -->
-                <a href="login" class="continue-btn" id="continue-btn">CONTINUE</a>
+                <a href="login.php" class="continue-btn" id="continue-btn">CONTINUE</a>
            </div>     
                  
     </div>

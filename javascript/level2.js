@@ -1189,7 +1189,7 @@ yesBtn.addEventListener('click', function() {
 });
 
 noBtn.addEventListener('click', function() {
-    window.location.href="map.html";
+    window.location.href="map.php";
 });
 
 

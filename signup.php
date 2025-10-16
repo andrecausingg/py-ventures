@@ -56,8 +56,8 @@
 
                 <!-- Nav Links Container -->
                 <div class="nav-form">
-                    <a class="ney-text-color-black ney-text-size-small" href="login">Already Have an account? Log In</a> <br>
-                    <a class="ney-text-color-black ney-text-size-small" href="forgot-password">Forgot Password</a>
+                    <a class="ney-text-color-black ney-text-size-small" href="login.php">Already Have an account? Log In</a> <br>
+                    <a class="ney-text-color-black ney-text-size-small" href="forgot-password.php">Forgot Password</a>
                 </div>
             </form> <!-- End of Child Form Container -->
         </div> <!-- End of Parent Form COntainer -->

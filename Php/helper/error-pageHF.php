@@ -11,7 +11,7 @@
             require_once("./Php/main/signupMF.php");
 
             if(!isset($_SESSION["signUpUserEmail"])){
-                echo "<script>window.location.href='404';</script>";
+                echo "<script>window.location.href='404.php';</script>";
             }
         }
 
@@ -34,9 +34,9 @@
             $check_verification_key_link_table_row = mysqli_num_rows($check_verification_key_link_table); // Get the data on specific row database
             
             if($check_verification_key_link_table_row <= 0){  
-                echo "<script>window.location.href='404';</script>";
+                echo "<script>window.location.href='404.php';</script>";
             }else if(!isset($_SESSION["forgotPasswordEmail"])){
-                echo "<script>window.location.href='404';</script>";
+                echo "<script>window.location.href='404.php';</script>";
             }
         }
     }

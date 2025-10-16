@@ -52,7 +52,7 @@
         <!-- Menu Container -->
         <div class="menu-container">
             <img src="Images/Background/Logo.png" alt="Py-venture Logo" class="logo">
-            <a href="map" class="menu-btn" id="playBtn" onclick="buttonClick()">PLAY</a>
+            <a href="map.php" class="menu-btn" id="playBtn" onclick="buttonClick()">PLAY</a>
             <div class="menu-btn" id="setting-btn" onclick="buttonClick()">SETTINGS</div>
         </div>
     </div>
@@ -73,7 +73,7 @@
                 <input type="range" min="0" max="100" value="100" class="slider" id="sfxVolume" onchange="sfxVolumeAdjust()">
             </div>
         </div>
-        <a href="log-in.html" class="log-out" onclick="buttonClick()">LOG OUT</a>
+        <a href="login.php" class="log-out" onclick="buttonClick()">LOG OUT</a>
     </div>
 </div>
 

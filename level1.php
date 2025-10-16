@@ -181,7 +181,7 @@
         <div class="exit-container">
             <div class="question">ARE YOU SURE YOU WANT TO EXIT?</div>
             <div class="buttons">
-                <a href="menu.html" class="yes">YES</a>
+                <a href="menu.php" class="yes">YES</a>
                 <div class="no" id="no">NO</div>
             </div>       
         </div>
@@ -203,7 +203,7 @@
                     <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
                 </div>
             </div>
-            <a href="login.html" class="log-out">LOG OUT</a>
+            <a href="login.php" class="log-out">LOG OUT</a>
         </div>
     </div>
 

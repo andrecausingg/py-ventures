@@ -97,7 +97,7 @@
                                                 <div id="errorContainer" class="successContainer ney-z-index-1 ney-flex ney-flex-fd-c-ai-c-jc-c" style="width: 320px;">
                                                     <div>
                                                         <h4 style="color:green; margin-bottom:16px">Email Verified You <br> may Log In Now</h4>
-                                                        <a href="login" class="ney-btn ney-text-size-xlarge">Log In</a>
+                                                        <a href="login.php" class="ney-btn ney-text-size-xlarge">Log In</a>
                                                     </div>
                                                 </div>  <!-- End of Success Container -->
                                         ';

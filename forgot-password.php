@@ -47,7 +47,7 @@
                     </div>
                     
                     <div class="nav-form">
-                        <a class="ney-text-color-black ney-text-size-small" href="login">Back to Login</a> <br>
+                        <a class="ney-text-color-black ney-text-size-small" href="login.php">Back to Login</a> <br>
                     </div>
                 </div>
             </form>

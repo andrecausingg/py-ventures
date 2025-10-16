@@ -32,8 +32,8 @@
                     $mail->isSMTP();                                            //Send using SMTP
                     $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
                     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-                    $mail->Username   = 'shawngomo@gmail.com';                     //SMTP username
-                    $mail->Password   = 'kkgtwyomsvgvpclq';                               //SMTP password
+                    $mail->Username   = 'systemdevx@gmail.com';                     //SMTP username
+                    $mail->Password   = 'tikamzpgjesfvpgz';                               //SMTP password
                     $mail->SMTPSecure = 'tls';            //Enable implicit TLS encryption
                     $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
@@ -49,7 +49,7 @@
                     $mail->AltBody =  " <strong> $db_uvt_email_code </strong> <br><br>";
 
                     if($mail->send()){
-                        echo "<script>window.location.href='email-verification';</script>";
+                        echo "<script>window.location.href='email-verification.php';</script>";
                     }else{
                         echo '
                             <!-- Start of Error Container -->

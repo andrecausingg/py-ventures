@@ -4,7 +4,7 @@
             require_once("./Php/main/loginMF.php");
 
             if(!isset($_SESSION["uat_id"])){
-                echo "<script>window.location.href='404';</script>";
+                echo "<script>window.location.href='404.php';</script>";
             }
         }   
     }

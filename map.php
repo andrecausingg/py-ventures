@@ -164,7 +164,7 @@
                 BY PRINTING VARIOUS TEXTS
             </div>
             <div class="start-button">
-                <a href="level1" class="start" id="startBtn" onclick="buttonClick()">Start</a>
+                <a href="level1.php" class="start" id="startBtn" onclick="buttonClick()">Start</a>
             </div>       
         </div>
     </div>
@@ -174,7 +174,7 @@
     <div class="exit-container">
         <div class="question">ARE YOU SURE YOU WANT TO EXIT?</div>
         <div class="buttons">
-            <a href="menu" class="yes" onclick="buttonClick()">YES</a>
+            <a href="menu.php" class="yes" onclick="buttonClick()">YES</a>
             <div class="no" id="no" onclick="buttonClick()">NO</div>
         </div>       
     </div>

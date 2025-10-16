@@ -43,7 +43,7 @@
         <div class="container">
             <div class="arvi-div">
                 <div class="map-btn-container">
-                    <a href="map" class="map-btn" id="map-btn" onclick="buttonClick()">MAP</a>
+                    <a href="map.php" class="map-btn" id="map-btn" onclick="buttonClick()">MAP</a>
                 </div>
                 <div class="arvi-img-div">
                     <img src="images/characters/arvi/avi 1.png" alt="" class="arvi movement" id="arvi">
