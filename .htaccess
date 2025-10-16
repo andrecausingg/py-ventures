@@ -1,0 +1,9 @@
+# Turn on the rewrite engine
+RewriteEngine On
+
+# Prevent the rule from applying to existing files or directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite the URL to append .php if the file exists
+RewriteRule ^(.*)$ $1.php [L,QSA]
