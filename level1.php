@@ -203,7 +203,7 @@
                     <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
                 </div>
             </div>
-            <a href="log-in.html" class="log-out">LOG OUT</a>
+            <a href="login.html" class="log-out">LOG OUT</a>
         </div>
     </div>
 

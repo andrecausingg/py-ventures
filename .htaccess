@@ -1,9 +1,20 @@
 # Turn on the rewrite engine
 RewriteEngine On
 
-# Prevent the rule from applying to existing files or directories
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
+# Redirect direct requests for .php and .html files to the clean URL
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.(php|html)[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L]
 
-# Rewrite the URL to append .php if the file exists
+# --- Internal Rewriting Rules ---
+
+# First, check for a matching .php file
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^(.*)$ $1.php [L,QSA]
+
+# If no .php file, check for a matching .html file
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [L,QSA]
